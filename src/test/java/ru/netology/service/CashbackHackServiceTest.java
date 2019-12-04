@@ -33,4 +33,13 @@ class CashbackHackServiceTest {
         int actualResult = service.remain(amount);
         Assertions.assertEquals(expectedResult, actualResult);
     }
+
+    @Test
+    void shouldReturn300IfAmountIs700() {
+        CashbackHackService service = new CashbackHackService();
+        int amount = 700;
+        int expectedResult = 300;
+        int actualResult = service.remain(amount);
+        Assertions.assertEquals(expectedResult, actualResult);
+    }
 }
