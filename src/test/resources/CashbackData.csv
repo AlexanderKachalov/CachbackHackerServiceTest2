@@ -1,0 +1,6 @@
+amount,expectedResult,message
+1000,0,Should return 0 if amount equal 1000
+900,100,Should return 100 if amount equal 900
+800,200,Should return 200 if amount equal 800
+700,300,Should return 300 if amount equal 700
+950,50,Should return 50 if amount equal 950
